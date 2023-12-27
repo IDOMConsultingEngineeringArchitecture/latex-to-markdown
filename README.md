@@ -17,3 +17,20 @@
    from LatexToMarkdownConverter import LatexToMarkdownConverter
 
    converter = LatexToMarkdownConverter("/path/to/latex/file.tex")
+
+2. **Conversion**: Call the process_conversion method to perform the conversion. The converted Markdown content will be saved to a specified output file.
+
+   ```python
+   converter.process_conversion()
+   
+## Requirements
+
+- Python 3.x
+- ´re´  module for regular expressions (included in standard Python library)
+
+## Contributions
+Contributions to LatexToMarkdownConverter are welcome! Whether it's adding new features, improving documentation, or reporting issues, feel free to open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License.
+
